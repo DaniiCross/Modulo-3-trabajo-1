@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+*{box-sizing: border-box; /* darle tamaño a una caja de cierto valor en especifico*/
+    margin-top: 0%; /*Lo que esta del borde para fuera*/
+    padding: 0%; /*lo que esta del borde para afuera*/
+}
+
+body{
+    background-color: #f5fcef; /*Color de base*/
+    display: block; /* tipo de vizualizacion de un elemento*/
+    justify-content: center; /*Orden del contenido*/
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#header{
+    background-color: #b6dd94;
+}
+
+h1{
+    font-family: fantasy;
+    opacity: .5;
+    color: rgb(57, 63, 56);
+    text-align: center;
+}
+
+main{
+    background-image: radial-gradient(circle, rgb(235, 243, 125),rgb(157, 194, 135),rgb(87, 109, 66));
+    margin-top: 22ch;
+    margin-left: 35%;
+    padding: 3%;
+    border-radius: 15px;
+    justify-content: center;
+    display: block;
+    width: 550px;
+    height: 300px;
+}
+
+#image{
+    margin-bottom:16px;
+    margin-left: 5vh;
+    border-radius: 15px;
+    width: 350px;
+    align-items: center;
+}
+
+#dinero{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 80%;
+    margin-left: 40px;
+}
+
+#items{
+    margin-top: 12%;
+
+}
+
+.moneda{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1px;
+
+}
+
+#btnConvertir{
+    background-image: radial-gradient(circle, rgb(173, 219, 130),rgb(156, 248, 7));
+    padding: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    width: 105px;
+    background-color: yellowgreen;
+}
+
+footer{
+    font-size: 15px;
+    display: block;
+    margin-top: 15%;
+    text-align: center;
+}
